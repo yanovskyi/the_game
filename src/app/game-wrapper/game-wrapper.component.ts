@@ -26,7 +26,7 @@ export class GameWrapperComponent implements AfterViewInit {
           gameCanvasContext.drawImage(dinoImg, 100, 100, 200, 200);
         }
         gameCanvasContext.fill();
-        gameCanvasContext.fillStyle = 'green';
+        gameCanvasContext.fillStyle = 'pink';
 
         gameCanvasContext.fillRect(20, 20, 150, 100);
 
